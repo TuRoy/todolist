@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.lists{
+    display: flex;
+    justify-content: space-evenly;
+}
+.textcolor{
+    background-color: black !important;
+}
+@media (max-width: 600px) {
+    .lists{
+    }
+    .mediaheader{
+        padding: 8px;
+        font-size: 16px;
+        font-family: 600;
+    }
+    .mediabody{
+        padding: 10px !important;
+    }
+    .mediatext{
+        font-size: 16px;
+        font-weight: 600;
+    }
+    .medialist{
+        margin-bottom: 50px;
+    }
+}
